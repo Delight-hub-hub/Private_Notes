@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 // 1. Import the client you created earlier
 import { supabase } from './supabaseClient'
+import './Login.css'
 
 function Login() {
   const navigate = useNavigate()

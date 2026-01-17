@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
 import { supabase } from './supabaseClient'
+import './Register.css'
 
 function Register() {
   const navigate = useNavigate()
